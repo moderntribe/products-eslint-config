@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/moderntribe/eslint-config-products/issues"
   },
-  "homepage": "https://github.com/moderntribe/eslint-config-products#readme"
+  "homepage": "https://github.com/moderntribe/eslint-config-products#readme",
+  "devDependencies": {
+    "eslint-config-wordpress": "^1.1.0"
+  }
 }
