@@ -19,5 +19,9 @@
   "dependencies": {
     "eslint-config-wpcalypso": "^0.8.0",
     "eslint-plugin-wpcalypso": "^3.2.0"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
   }
 }
