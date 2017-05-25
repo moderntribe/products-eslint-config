@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/moderntribe/eslint-config-products#readme",
   "dependencies": {
-    "eslint-config-wordpress": "^1.1.0"
+    "eslint-config-wpcalypso": "^0.8.0",
+    "eslint-plugin-wpcalypso": "^3.2.0"
   }
 }
