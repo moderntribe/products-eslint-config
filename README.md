@@ -1,5 +1,7 @@
 # Products Eslint Config
 
+Custom config that extends [wpcalypso](https://github.com/Automattic/eslint-config-wpcalypso).
+
 ## Dependencies
 
 * `eslint 3.19.0+`
