@@ -1,5 +1,4 @@
 # Products Eslint Config
----
 
 ## Dependencies
 
@@ -32,10 +31,4 @@ Update `.eslintrc` to:
 {
     extends: 'products/react'
 }
-```
-
-### Add in react config dependencies
-
-```sh
-npm install --save-dev eslint-plugin-react eslint-plugin-jsx-a11y
 ```
