@@ -4,8 +4,8 @@ module.exports = {
         browser: true
     },
     extends: [
-        'products/lib/defaults',
-        'wpcalypso/react-a11y'
+        'wpcalypso/react-a11y',
+        '../index.js'
     ],
     rules: {
         'react/jsx-filename-extension': 0,
