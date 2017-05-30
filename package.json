@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-products",
+  "version": "0.0.1",
+  "description": "Products eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moderntribe/eslint-config-products.git"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/moderntribe/eslint-config-products/issues"
+  },
+  "homepage": "https://github.com/moderntribe/eslint-config-products#readme",
+  "dependencies": {
+    "eslint-config-wpcalypso": "^0.8.0",
+    "eslint-plugin-wpcalypso": "^3.2.0"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
