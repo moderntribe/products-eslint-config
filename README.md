@@ -36,7 +36,7 @@ In the root directory, add in an `.eslintrc` file.
 }
 ```
 
-## Using React eslint config
+### Using React eslint config
 
 Update `.eslintrc` to:
 
