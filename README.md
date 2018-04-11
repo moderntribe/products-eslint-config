@@ -8,11 +8,22 @@ Custom config that extends [wpcalypso](https://github.com/Automattic/eslint-conf
 
 ## Installation
 
+Using npm:
 ```sh
 npm install --save-dev github:moderntribe/eslint-config-products
 
 # Target branch or release:
 # npm install --save-dev github:moderntribe/eslint-config-products#branch-name
+# npm install --save-dev github:moderntribe/eslint-config-products#v0.0.1
+```
+
+Using yarn:
+```sh
+yarn add --dev github:moderntribe/eslint-config-products
+
+# Target branch or release:
+# yarn add --dev github:moderntribe/eslint-config-products#branch-name
+# yarn add --dev github:moderntribe/eslint-config-products#v0.0.1
 ```
 
 ### Add .eslintrc file
@@ -33,4 +44,14 @@ Update `.eslintrc` to:
 {
     extends: 'products/react'
 }
+```
+
+## Creating release version
+
+First, bump the package.json version number to the latest vesion number.
+
+Then create a new tag for updated config in git:
+```sh
+git tag v0.0.5
+git push --tags
 ```
