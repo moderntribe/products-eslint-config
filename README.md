@@ -48,7 +48,7 @@ Update `.eslintrc` to:
 
 ## Creating release version
 
-First, bump the package.json version number to the latest vesion number.
+First, bump the package.json version number to the latest version number.
 
 Then create a new tag for updated config in git:
 ```sh
