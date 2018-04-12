@@ -4,8 +4,12 @@ module.exports = {
         browser: true
     },
     extends: [
-        'wpcalypso/react-a11y',
+        'plugin:jsx-a11y/recommended',
+        'wpcalypso/react',
         '../index.js'
+    ],
+    plugins: [
+        'jsx-a11y'
     ],
     rules: {
         'react/jsx-filename-extension': 0,
