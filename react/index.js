@@ -4,7 +4,7 @@ module.exports = {
         browser: true
     },
     extends: [
-        'wpcalypso/react-a11y',
+        'plugin:jsx-a11y/recommended',
         '../index.js'
     ],
     rules: {
