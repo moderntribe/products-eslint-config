@@ -4,7 +4,7 @@ Custom config that extends [wpcalypso](https://github.com/Automattic/eslint-conf
 
 ## Dependencies
 
-* `eslint 3.19.0+`
+* `eslint 4+`
 
 ## Installation
 
