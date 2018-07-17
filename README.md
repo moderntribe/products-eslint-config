@@ -48,10 +48,7 @@ Update `.eslintrc` to:
 
 ## Creating release version
 
-First, bump the package.json version number to the latest version number.
-
-Then create a new tag for updated config in git:
 ```sh
-git tag v0.0.5
-git push --tags
+npm version patch|minor|major
+git push --follow-tags
 ```
