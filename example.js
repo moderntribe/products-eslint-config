@@ -25,8 +25,16 @@ export default class MyComponent extends Component {
     	return true;
     }
 
+    set setter( state ) {
+        this.setState( state );
+    }
+
     everythingElse() {
     	return true;
+    }
+
+    renderCool() {
+        return 'cool';
     }
 
     render() {

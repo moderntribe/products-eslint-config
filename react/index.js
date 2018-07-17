@@ -29,7 +29,7 @@ module.exports = {
                     'getters',
                     'setters',
                     'everything-else',
-                    'render'
+                    'rendering'
                 ],
                 groups: {
                     static: [
@@ -65,6 +65,10 @@ module.exports = {
                         'componentDidUpdate',
                         'componentDidCatch',
                         'componentWillUnmount'
+                    ],
+                    rendering: [
+                        '/^render.+$/',
+                        'render'
                     ]
                 }
             }
