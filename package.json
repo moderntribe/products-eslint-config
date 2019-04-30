@@ -23,7 +23,8 @@
   },
   "optionalDependencies": {
     "eslint-plugin-jsx-a11y": "~6",
-    "eslint-plugin-react": "~7"
+    "eslint-plugin-react": "~7",
+    "eslint-plugin-react-hooks": "^1.6.0"
   },
   "peerDependencies": {
     "eslint": "^4"

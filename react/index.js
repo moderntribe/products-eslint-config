@@ -9,12 +9,14 @@ module.exports = {
         '../index.js'
     ],
     plugins: [
-        'jsx-a11y'
+        'jsx-a11y',
+        'react-hooks'
     ],
     rules: {
         'react/jsx-filename-extension': 0,
         'react/jsx-indent-props': [2, 'tab'],
         'react/jsx-indent': [2, 'tab'],
+        'react/jsx-no-bind': 1,
         'react/jsx-uses-vars': 1,
         'react/prop-types': 1,
         'react/react-in-jsx-scope': 1,
@@ -78,6 +80,10 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 2,
         'jsx-a11y/no-noninteractive-element-interactions': 2,
         'jsx-a11y/interactive-supports-focus': 2,
+
+        // React hooks
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
 
         // Removed in v5
         'jsx-a11y/img-has-alt': 0,
