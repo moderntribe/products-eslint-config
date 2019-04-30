@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-products",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Products eslint config",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,8 @@
   },
   "optionalDependencies": {
     "eslint-plugin-jsx-a11y": "~6",
-    "eslint-plugin-react": "~7"
+    "eslint-plugin-react": "~7",
+    "eslint-plugin-react-hooks": "^1.6.0"
   },
   "peerDependencies": {
     "eslint": "^4"

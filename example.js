@@ -1,8 +1,8 @@
-/* eslint-disable wpcalypso/import-docblock */
-import React, { Component } from 'react';
+/* eslint-disable no-mixed-spaces-and-tabs, wpcalypso/import-docblock */
+import React, { Component, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
-export default class MyComponent extends Component {
+export default class ClassComponent extends Component {
     static propTypes = {
     	example: PropTypes.any,
     }
@@ -26,7 +26,7 @@ export default class MyComponent extends Component {
     }
 
     set setter( state ) {
-        this.setState( state );
+    	this.setState( state );
     }
 
     everythingElse() {
@@ -34,7 +34,7 @@ export default class MyComponent extends Component {
     }
 
     renderCool() {
-        return 'cool';
+    	return 'cool';
     }
 
     render() {
@@ -42,4 +42,18 @@ export default class MyComponent extends Component {
 	        <div>{this.props.example}</div>
     	);
     }
+}
+
+export function FunctionalComponent() {
+	const [ count, setCount ] = useState( 1 );
+
+	useEffect( () => {
+		document.title = count;
+	} );
+
+	const handleClick = () => setCount( count + 1 );
+
+	return (
+		<button onClick={ handleClick }>Increment</button>
+	);
 }
