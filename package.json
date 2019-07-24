@@ -18,8 +18,8 @@
   "homepage": "https://github.com/moderntribe/eslint-config-products#readme",
   "dependencies": {
     "eslint": "^4",
-    "eslint-config-wpcalypso": "~2",
-    "eslint-plugin-wpcalypso": "~4"
+    "eslint-config-wpcalypso": "4.0.0",
+    "eslint-plugin-wpcalypso": "4.0.2"
   },
   "optionalDependencies": {
     "eslint-plugin-jsx-a11y": "~6",
