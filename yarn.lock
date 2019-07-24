@@ -272,9 +272,9 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-wpcalypso@~2:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-wpcalypso/-/eslint-config-wpcalypso-2.0.0.tgz#15b9df7beadd2d32af4e00a5aa803074d8b492bf"
+eslint-config-wpcalypso@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-wpcalypso/-/eslint-config-wpcalypso-4.0.0.tgz#a2444dff1dbf0bd0c8a3978b0d56d82675c2d90b"
 
 eslint-plugin-jsx-a11y@~6:
   version "6.1.1"
@@ -302,9 +302,9 @@ eslint-plugin-react@~7:
     jsx-ast-utils "^2.0.1"
     prop-types "^15.6.2"
 
-eslint-plugin-wpcalypso@~4:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-wpcalypso/-/eslint-plugin-wpcalypso-4.0.1.tgz#76ccee5ce4fbcc7760abd1e76c12120e3e006bf7"
+eslint-plugin-wpcalypso@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-wpcalypso/-/eslint-plugin-wpcalypso-4.0.2.tgz#ad5c98b1e3faed275b56924746225cfbb196e331"
   dependencies:
     requireindex "^1.1.0"
 
